@@ -3,7 +3,7 @@
   <a href="https://portfolioaaryan27.netlify.app/" target="_blank">Aaryan Choudhari</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme-img.png" />
 </div>
 
 <br/>
