@@ -128,7 +128,7 @@ function Projects() {
             <ProjectCard
               imgPath={ppe}
               isBlog={false}
-              title="Selenium Python Bots"
+              title="Protective-Equipment-PPE-detection-system"
               description="This project showcases the versatility of Python in developing real-world applications that can significantly impact workplace safety."
               ghLink="https://github.com/aaryan2720/Protective-Equipment-PPE-detection-system"
             />
