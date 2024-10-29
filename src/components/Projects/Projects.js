@@ -86,7 +86,7 @@ function Projects() {
                   The chatbot is designed to understand user inputs, engage in human-like conversations, and automate various tasks, enhancing user productivity and experience.
                 "
               ghLink="https://github.com/aaryan2720/Chatbot"
-              demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" 
+              //demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" 
             />
           </Col>
 
@@ -98,7 +98,7 @@ function Projects() {
               description="This project involves the creation of an interactive 2-D portfolio website designed to showcase projects and skills. 
                   The website provides an engaging user experience with visually appealing graphics and a user-friendly interface, highlighting professional achievements and capabilities effectively."
               ghLink="https://github.com/aaryan2720/2-D-portfolio"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              //demoLink="https://blogs.soumya-jit.tech/"       
             />
           </Col>
 
