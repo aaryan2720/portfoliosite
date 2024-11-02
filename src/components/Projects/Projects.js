@@ -31,6 +31,28 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={port}
+              isBlog={false}
+              title="2-D Portfolio"
+              description="This project involves the creation of an interactive 2-D portfolio website designed to showcase projects and skills. 
+                  The website provides an engaging user experience with visually appealing graphics and a user-friendly interface, highlighting professional achievements and capabilities effectively."
+              ghLink="https://github.com/aaryan2720/2-D-portfolio"
+              demoLink="https://2d-portfolio27.netlify.app/"       
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={car}
+              isBlog={false}
+              title="Neural-Network Car Race"
+              description="This project involves the development of a platform that enables users to manipulate neural network parameters and observe the resulting transformations in a self-driving car simulation. 
+                  The platform provides an interactive environment for learning and experimentation, allowing users to gain insights into the behavior and decision-making processes of autonomous vehicles. "
+              ghLink="https://github.com/aaryan2720/neural-network-car-race"
+              demoLink="https://neural-network-car-race.netlify.app/"       
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Newz}
@@ -87,29 +109,6 @@ function Projects() {
                 "
               ghLink="https://github.com/aaryan2720/Chatbot"
               //demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" 
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={port}
-              isBlog={false}
-              title="2-D Portfolio"
-              description="This project involves the creation of an interactive 2-D portfolio website designed to showcase projects and skills. 
-                  The website provides an engaging user experience with visually appealing graphics and a user-friendly interface, highlighting professional achievements and capabilities effectively."
-              ghLink="https://github.com/aaryan2720/2-D-portfolio"
-              //demoLink="https://blogs.soumya-jit.tech/"       
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={car}
-              isBlog={false}
-              title="Neural-Network Car Race"
-              description="This project involves the development of a platform that enables users to manipulate neural network parameters and observe the resulting transformations in a self-driving car simulation. 
-                  The platform provides an interactive environment for learning and experimentation, allowing users to gain insights into the behavior and decision-making processes of autonomous vehicles. "
-              ghLink="https://github.com/aaryan2720/neural-network-car-race"
             />
           </Col>
 
