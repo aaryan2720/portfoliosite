@@ -12,6 +12,7 @@ import Newz from "../../Assets/Projects/Newz.png";
 import port from "../../Assets/Projects/port.png";
 import ppe from "../../Assets/Projects/ppe.png";
 import selenium from "../../Assets/Projects/selenium.png";
+import stock from "../../Assets/Projects/stock.png";
 import tools from "../../Assets/Projects/tools.png";
 
 
@@ -173,6 +174,17 @@ function Projects() {
               description="Developed a suite of Python-based tools for network scanning, port scanning, packet sniffing, web crawling, and vulnerability detection. 
                   These scripts provide comprehensive solutions for monitoring network activity, identifying security vulnerabilities, and automating web data extraction."
               ghLink="https://github.com/aaryan2720/Cybersecurity-Tools"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={stock}
+              isBlog={false}
+              title="StockMarket Simulator"
+              description="Our Stock Market Simulator is a simple and easy-to-use Java-based application designed for beginners to understand the basics of stock trading.
+              It provides a user-friendly interface where users can simulate buying, selling, and managing stocks in a virtual environment.Perfect for anyone looking to learn stock trading fundamentals in an interactive and practical way!"
+              ghLink="https://github.com/aaryan2720/Java-Project"
             />
           </Col>
 
