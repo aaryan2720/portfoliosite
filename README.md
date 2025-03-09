@@ -1,73 +1,20 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://portfolioaaryan27.netlify.app/" target="_blank">Aaryan Choudhari</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img.jpeg" />
-</div>
+# Project Title PortFolio
 
-<br/>
+## Posters
+![Cover 1](src/images/cover1.png)
+![Cover 2](src/images/cover2.png)
 
-<center>
+## Description
+This project is designed to [insert detailed description of the project, its purpose, and features here].
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
+## Installation
+To install the project, follow these steps:
+1. Clone the repository: `git clone [repository-url]`
+2. Navigate to the project directory
+3. Install the dependencies: `npm install` or `yarn install`
 
-</center>
-
-<h3 align="center">
-    🔹
-    <a href="https://github.com/aaryan2720/portfoliosite/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/aaryan2720/portfoliosite/issues">Request Feature</a>
-</h3>
-
-## TL;DR
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Aaryan2720](https://portfolioaaryan27.netlify.app/). Thanks!
-
-## Built With
-
-My personal portfolio <a href="https://portfolioaaryan27.netlify.app/" target="_blank">Aaryan Choudhari</a> which features some of my github projects as well as my resume and technical skills.<br/>
-
-This project was built using these technologies.
-
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Netlify
-
-## Features
-
-**📖 Multi-Page Layout**
-
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
-
-**📱 Fully Responsive**
-
-## Getting Started
-
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
-
-## 🛠 Installation and Setup Instructions
-
-1. Installation: `npm install`
-
-2. In the project directory, you can run: `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
-
-## Usage Instructions
-
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
-
-### Show your support
-
-Give a ⭐ if you like this website!
+## Usage
+To use the project, follow these instructions:
+1. Start the application: `npm run dev` or `yarn run dev`
+2. Open your browser and navigate to `http://localhost:5173`
 
