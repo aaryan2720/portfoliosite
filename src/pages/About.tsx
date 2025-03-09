@@ -127,8 +127,8 @@ const About = () => {
               </div>
               
               <div className="md:col-span-2">
-                <h2 className="text-2xl font-bold mb-4">Your Name</h2>
-                <h3 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 font-semibold mb-4">Senior Software Architect & AI Systems Engineer</h3>
+                <h2 className="text-2xl font-bold mb-4">Aaryan Choudhari</h2>
+                <h3 className="text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 font-semibold mb-4">MERN Stack Developer | DevOps Specialist | AI Enthusiast</h3>
                 <p className="text-gray-300 mb-4 leading-relaxed">
                 I'm a dedicated tech enthusiast with a strong foundation in computer science, actively shaping the tech landscape as the Vice Lead at Coding Ninjas and Co-founder of The Public Eye.
                 My expertise spans MERN stack development, DevOps, Bash scripting, and Gen-AI solutions, allowing me to deliver impactful coding solutions that meet evolving industry demands.
