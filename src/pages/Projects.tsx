@@ -5,6 +5,7 @@ import car from "../images/car.png";
 import chatbot from "../images/chatbot.png";
 import CRM from "../images/CRM.png";
 import detection from "../images/detection.png";
+import food from "../images/food.png";
 import inotebook from "../images/inotebook.png";
 import integration from "../images/integration.png";
 import Music from "../images/Music.png";
@@ -34,6 +35,14 @@ const Projects = () => {
       technologies: ['Python', 'TensorFlow', 'OpenCV'],
       github: 'https://github.com/aaryan2720/neural-network-car-race',
       demo: 'https://neural-network-car-race.netlify.app/'
+    },
+    {
+      id: 15,
+      title: 'BhojanSetu',
+      description: 'Platform to Distribute Surplus Food.',
+      image: food,
+      technologies: ['ReactJS + Vite + TypeScript', 'MongoDB', 'Express', 'NodeJS'],
+      github: 'https://github.com/aaryan2720/BhojanSetu',
     },
     {
       id: 3,
