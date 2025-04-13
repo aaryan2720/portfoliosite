@@ -1,10 +1,20 @@
 import { motion } from 'framer-motion';
 import { Award, BookOpen, Calendar, MapPin, Users, Zap } from 'lucide-react';
 import Cn from '../images/Coding-Ninjas.jpg';
+import dipex from '../images/dipex.jpeg';
 import thepubliceye from '../images/thepubliceye.png';
 
 const Extracurricular = () => {
   const activities = [
+    {
+      id: 5,
+      title: 'DIPEX 2025 Runner Up',
+      description: 'Runner up in the DIPEX 2025 Project exhibition, showcasing innovative solutions and teamwork.',
+      date: 'April 2025',
+      location: 'COEP Pune',
+      icon: <Award className="h-6 w-6 text-yellow-500" />,
+      image: dipex
+    },
     {
       id: 4,
       title: 'Technical Blog Writer',
