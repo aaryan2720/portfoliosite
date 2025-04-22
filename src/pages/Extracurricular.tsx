@@ -2,18 +2,47 @@ import { motion } from 'framer-motion';
 import { Award, BookOpen, Calendar, MapPin, Users, Zap } from 'lucide-react';
 import Cn from '../images/Coding-Ninjas.jpg';
 import dipex from '../images/dipex.jpeg';
+import e404 from '../images/e404.jpeg';
+import ideation from '../images/ideation.jpeg';
+import mkd from '../images/mkd.jpeg';
 import thepubliceye from '../images/thepubliceye.png';
-
 const Extracurricular = () => {
   const activities = [
     {
+      id: 7,
+      title: 'Ideation 2.0 2nd Runner Up',
+      description: 'The Team Pravartak received a cash prize of 1,00,000 from Hon`ble Governor Shri C.P Radhakrishnan Sir and Chairman Of AICTE T.G Sitaraman Sir',
+      date: 'April 2025',
+      location: 'Ratan Tata State Skills University (Headquarters),Chhatrapati Shivaji Terminus Area, Fort, Mumbai, Maharashtra',
+      icon: <Award className="h-6 w-6 text-yellow-500" />,
+      image: ideation
+    },
+    {
+      id: 6,
+      title: 'Spark 2k25 WINNER ',
+      description: 'Team Pravartak secured FIRST PRIZE at SPARK 2k25, a prestigious national-level project competition held at MKD Institute of Technology, Nandurbar.',
+      date: 'April 2025',
+      location: 'MKD Institute of Technology, Nandurbar',
+      icon: <Award className="h-6 w-6 text-yellow-500" />,
+      image: mkd
+    },
+    {
       id: 5,
       title: 'DIPEX 2025 Runner Up',
-      description: 'Runner up in the DIPEX 2025 Project exhibition, showcasing innovative solutions and teamwork.',
+      description: 'Team Pravartak secured Runner up in the DIPEX 2025 Project exhibition, showcasing innovative solutions and teamwork.',
       date: 'April 2025',
       location: 'COEP Pune',
       icon: <Award className="h-6 w-6 text-yellow-500" />,
       image: dipex
+    },
+    {
+      id: 1,
+      title: 'Hackathon Participant',
+      description: 'Team error404 Participated in the National Level Hackathon i.e TECHATHON 2.0 organized by InnovateYou Foundation.',
+      date: 'February 2025',
+      location: 'AISSMS College',
+      icon: <Award className="h-6 w-6 text-yellow-500" />,
+      image: e404
     },
     {
       id: 4,
@@ -23,15 +52,6 @@ const Extracurricular = () => {
       location: 'Medium',
       icon: <BookOpen className="h-6 w-6 text-blue-500" />,
       image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80'
-    },
-    {
-      id: 1,
-      title: 'Hackathon Participant',
-      description: 'Participated in the National Level Hackathon i.e TECHATHON 2.0 organized by InnovateYou Foundation.',
-      date: 'February 2025',
-      location: 'AISSMS College',
-      icon: <Award className="h-6 w-6 text-yellow-500" />,
-      image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80'
     },
     {
       id: 2,
