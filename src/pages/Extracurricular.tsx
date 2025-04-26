@@ -99,7 +99,7 @@ const Extracurricular = () => {
       id: 4,
       title: 'Blockchain Basics',
       issuer: 'LinkedIn Learning',
-      date: 'February 2025',
+      date: 'April 2025',
       icon: <Award className="h-5 w-5 text-orange-500" />
     }
   ];
