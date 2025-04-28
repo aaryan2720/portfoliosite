@@ -1,6 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, MapPin } from 'lucide-react';
+import { Cable, Calendar, MapPin } from 'lucide-react';
+import React from 'react';
 
 interface ActivityCardProps {
   title: string;
@@ -10,6 +10,7 @@ interface ActivityCardProps {
   icon: React.ReactNode;
   image: string;
   index: number;
+  link?: string;
 }
 
 const ActivityCard: React.FC<ActivityCardProps> = ({
@@ -19,6 +20,7 @@ const ActivityCard: React.FC<ActivityCardProps> = ({
   location,
   icon,
   image,
+  link,
   index
 }) => {
   return (
@@ -53,8 +55,21 @@ const ActivityCard: React.FC<ActivityCardProps> = ({
           <MapPin className="h-4 w-4 mr-2" />
           <span>{location}</span>
         </div>
-      </div>
-    </motion.div>
+        <div className="flex justify-between items-center mt-4">
+          {link && (
+            <a 
+              href={link} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 text-cyan-400 hover:text-cyan-300 transition-colors"
+            >
+              <Cable className="h-4 w-4" />
+              <span>Learn More</span>
+            </a>
+          )}
+        </div>
+    </div>
+  </motion.div>
   );
 };
 

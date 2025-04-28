@@ -1,5 +1,6 @@
-import React from 'react';
 import { motion } from 'framer-motion';
+import { ExternalLink } from 'lucide-react';
+import React from 'react';
 
 interface CertificationCardProps {
   title: string;
@@ -7,6 +8,7 @@ interface CertificationCardProps {
   date: string;
   icon: React.ReactNode;
   index: number;
+  link?: string;
 }
 
 const CertificationCard: React.FC<CertificationCardProps> = ({
@@ -14,7 +16,8 @@ const CertificationCard: React.FC<CertificationCardProps> = ({
   issuer,
   date,
   icon,
-  index
+  index,
+  link
 }) => {
   return (
     <motion.div
@@ -34,6 +37,17 @@ const CertificationCard: React.FC<CertificationCardProps> = ({
           <span className="mx-2">•</span>
           <span>{date}</span>
         </div>
+        {link && (
+          <a 
+            href={link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 text-cyan-400 hover:text-cyan-300 transition-colors mt-2"
+          >
+            <ExternalLink className="h-4 w-4" />
+            <span>View Certificate</span>
+          </a>
+        )}
       </div>
     </motion.div>
   );

@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { Award, BookOpen, Calendar, MapPin, Users, Zap } from 'lucide-react';
+import { Award, BookOpen, Users, Zap } from 'lucide-react';
+import ActivityCard from '../components/ActivityCard';
 import Cn from '../images/Coding-Ninjas.jpg';
 import dipex from '../images/dipex.jpeg';
 import e404 from '../images/e404.jpeg';
@@ -15,7 +16,8 @@ const Extracurricular = () => {
       date: 'April 2025',
       location: 'Ratan Tata State Skills University (Headquarters),Chhatrapati Shivaji Terminus Area, Fort, Mumbai, Maharashtra',
       icon: <Award className="h-6 w-6 text-yellow-500" />,
-      image: ideation
+      image: ideation,
+      link: 'https://www.linkedin.com/posts/aaryan-choudhari_ideation2-teampravartak-projecthawk-activity-7320853399795564544-Fa0D?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADF6DV4BvHsLu_61YQ_Pl95sQvYE4sPUADY'
     },
     {
       id: 6,
@@ -33,7 +35,8 @@ const Extracurricular = () => {
       date: 'April 2025',
       location: 'COEP Pune',
       icon: <Award className="h-6 w-6 text-yellow-500" />,
-      image: dipex
+      image: dipex,
+      link: 'https://www.linkedin.com/posts/aaryan-choudhari_dipex2025-hawk-computationalintelligence-activity-7315449737032228865-BwuL?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADF6DV4BvHsLu_61YQ_Pl95sQvYE4sPUADY'
     },
     {
       id: 1,
@@ -42,7 +45,8 @@ const Extracurricular = () => {
       date: 'February 2025',
       location: 'AISSMS College',
       icon: <Award className="h-6 w-6 text-yellow-500" />,
-      image: e404
+      image: e404,
+      link: 'https://www.linkedin.com/posts/aaryan-choudhari_hackathon-innovation-learning-activity-7300031346410688512-C6QM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADF6DV4BvHsLu_61YQ_Pl95sQvYE4sPUADY'
     },
     {
       id: 4,
@@ -51,7 +55,8 @@ const Extracurricular = () => {
       date: '2024 - Present',
       location: 'Medium',
       icon: <BookOpen className="h-6 w-6 text-blue-500" />,
-      image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80'
+      image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80',
+      link: 'https://medium.com/@aryan1234choudhari1983'
     },
     {
       id: 2,
@@ -60,7 +65,8 @@ const Extracurricular = () => {
       date: '2023 - Present',
       location: 'The Public Eye - Youtube',
       icon: <Zap className="h-6 w-6 text-purple-500" />,
-      image: thepubliceye
+      image: thepubliceye,
+      link: 'https://www.youtube.com/@ThePublicEye.Official'
     },
     {
       id: 3,
@@ -69,7 +75,8 @@ const Extracurricular = () => {
       date: '2024- Present',
       location: 'CodingNinjas',
       icon: <Users className="h-6 w-6 text-green-500" />,
-      image: Cn
+      image: Cn,
+      link: 'https://www.linkedin.com/posts/aaryan-choudhari_codingninjas-leadership-diems-activity-7240184456202850304-IsUP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADF6DV4BvHsLu_61YQ_Pl95sQvYE4sPUADY'
     }
   ];
 
@@ -79,28 +86,32 @@ const Extracurricular = () => {
       title: 'DevOps Foundation',
       issuer: 'LinkedIn Learning',
       date: 'November 2024',
-      icon: <Award className="h-5 w-5 text-yellow-500" />
+      icon: <Award className="h-5 w-5 text-yellow-500" />,
+      link:'https://www.linkedin.com/learning/certificates/2656a3d1d041274faede3ef141358ade4ce39095279caa39863a8e4112b420eb?trk=share_certificate'
     },
     {
       id: 2,
       title: 'Introduction to Linux',
       issuer: 'LinkedIn Learning',
       date: 'December 2024',
-      icon: <Award className="h-5 w-5 text-blue-500" />
+      icon: <Award className="h-5 w-5 text-blue-500" />,
+      link:'https://www.linkedin.com/learning/certificates/d261f33bf6204b1971b80862e1eead703e736e554b5d397977834ff47292cbb0?trk=share_certificate'
     },
     {
       id: 3,
       title: 'Linux System Administration',
       issuer: 'LinkedIn Learning',
       date: 'January 2025',
-      icon: <Award className="h-5 w-5 text-cyan-500" />
+      icon: <Award className="h-5 w-5 text-cyan-500" />,
+      link:'https://www.linkedin.com/learning/certificates/d4645b4840510c6ed51e6c9bf257aee78d4de8ec68a489d06830412b93d41722?trk=share_certificate'
     },
     {
       id: 4,
       title: 'Blockchain Basics',
       issuer: 'LinkedIn Learning',
       date: 'April 2025',
-      icon: <Award className="h-5 w-5 text-orange-500" />
+      icon: <Award className="h-5 w-5 text-orange-500" />,
+      link: 'https://www.linkedin.com/learning/certificates/532faa3f8e1ee7234bfee348381ff73a8105d2f95d4781caf443d7475aa3b499?trk=share_certificate'
     }
   ];
 
@@ -125,40 +136,17 @@ const Extracurricular = () => {
         <section className="mb-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {activities.map((activity, index) => (
-              <motion.div
+              <ActivityCard
                 key={activity.id}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="bg-gray-800 rounded-lg overflow-hidden hover:shadow-xl transition-shadow"
-              >
-                <div className="h-48 overflow-hidden relative">
-                  <img 
-                    src={activity.image} 
-                    alt={activity.title} 
-                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-500"
-                  />
-                  <div className="absolute top-4 left-4 bg-gray-900/80 p-2 rounded-full">
-                    {activity.icon}
-                  </div>
-                </div>
-                
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-3">{activity.title}</h3>
-                  <p className="text-gray-400 mb-4">{activity.description}</p>
-                  
-                  <div className="flex items-center text-sm text-gray-500 mb-2">
-                    <Calendar className="h-4 w-4 mr-2" />
-                    <span>{activity.date}</span>
-                  </div>
-                  
-                  <div className="flex items-center text-sm text-gray-500">
-                    <MapPin className="h-4 w-4 mr-2" />
-                    <span>{activity.location}</span>
-                  </div>
-                </div>
-              </motion.div>
+                title={activity.title}
+                description={activity.description}
+                date={activity.date}
+                location={activity.location}
+                icon={activity.icon}
+                image={activity.image}
+                link={activity.link}
+                index={index}
+              />
             ))}
           </div>
         </section>
@@ -196,6 +184,17 @@ const Extracurricular = () => {
                       <span className="mx-2">•</span>
                       <span>{cert.date}</span>
                     </div>
+                    {cert.link && (
+                      <a 
+                        href={cert.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-cyan-400 hover:text-cyan-300 transition-colors mt-2"
+                      >
+                        <Award className="h-4 w-4" />
+                        <span>View Certificate</span>
+                      </a>
+                    )}
                   </div>
                 </motion.div>
               ))}
