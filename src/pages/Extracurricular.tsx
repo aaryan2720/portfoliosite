@@ -64,7 +64,7 @@ const Extracurricular = () => {
     {
       id: 9,
       title: 'Presentor and Creator Of Spark27',
-      description: 'Spark 27 |Seminar Introducing students to large language models and generative AI, sparking curiosity and innovation in future programmers! 🔥 Let me know if you need further refinements!',
+      description: 'Spark 27 | Seminar Introducing students to large language models and generative AI, sparking curiosity and innovation in future programmers! 🔥 Let me know if you need further refinements!',
       date: '27th January 2024',
       location: 'Adarsh Shala Yojana By Maharashtra Government ,Government School, Chhatrapati Sambhajinagar',
       icon: <BookOpen className="h-6 w-6 text-blue-500" />,
