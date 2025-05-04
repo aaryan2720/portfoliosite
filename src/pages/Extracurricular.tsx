@@ -19,7 +19,7 @@ const Extracurricular = () => {
       location: 'Nish E-Service, Plot No. 4, CTS No. 222/53, Cantonment Area, Chhatrapati Sambhajinagar ',
       icon: <Award className="h-6 w-6 text-yellow-500" />,
       image: intern,
-      link: 'https://www.linkedin.com/posts/aaryan-choudhari_ideation2-teampravartak-projecthawk-activity-7320853399795564544-Fa0D?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADF6DV4BvHsLu_61YQ_Pl95sQvYE4sPUADY'
+      link: 'https://www.linkedin.com/posts/aaryan-choudhari_webdevelopment-backendlead-internship-activity-7324464477549015040-0bMv?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADF6DV4BvHsLu_61YQ_Pl95sQvYE4sPUADY'
     },
     {
       id: 7,
