@@ -23,7 +23,7 @@ const Projects = () => {
       title: '2-D Portfolio',
       description: 'Interactive 2-D portfolio website designed to showcase projects and skills with engaging UI.',
       image: port,
-      technologies: ['React', 'Framer Motion', 'CSS'],
+      technologies: ['Kaboom.js', 'Framer Motion','HTML', 'CSS'],
       github: 'https://github.com/aaryan2720/2-D-portfolio',
       demo: 'https://2d-portfolio27.netlify.app/'
     },
@@ -32,7 +32,7 @@ const Projects = () => {
       title: 'Neural-Network Car Race',
       description: 'Platform to manipulate neural network parameters for self-driving car simulation.',
       image: car,
-      technologies: ['Python', 'TensorFlow', 'OpenCV'],
+      technologies: ['HTML', 'CSS', 'pure Javascript'],
       github: 'https://github.com/aaryan2720/neural-network-car-race',
       demo: 'https://neural-network-car-race.netlify.app/'
     },
@@ -57,7 +57,7 @@ const Projects = () => {
       title: 'iNotebook',
       description: 'Online note-taking application with user authentication and responsive design.',
       image: inotebook,
-      technologies: ['MERN Stack', 'MongoDB', 'Node.js'],
+      technologies: ['React.js','Express', 'MongoDB', 'Node.js'],
       github: 'https://github.com/aaryan2720/inotebook'
     },
     {
@@ -65,7 +65,7 @@ const Projects = () => {
       title: 'CRM-Customer Relationship Management',
       description: 'CRM system designed to manage customer interactions, sales tracking, and support.',
       image: CRM,
-      technologies: ['React', 'Redux', 'Firebase'],
+      technologies: ['Python', 'Django', 'MongoDB'],
       github: 'https://github.com/aaryan2720/crm'
     },
     {
@@ -81,7 +81,7 @@ const Projects = () => {
       title: 'Gemini Chatbot',
       description: 'Chatbot capable of NLP and task automation to enhance productivity.',
       image: chatbot,
-      technologies: ['Python', 'NLP', 'Flask'],
+      technologies: ['JavaScript', 'HTML', 'CSS'],
       github: 'https://github.com/aaryan2720/Chatbot'
     },
     {
@@ -113,7 +113,7 @@ const Projects = () => {
       title: 'Build Any Project',
       description: 'Comprehensive resource for developing a variety of projects across domains.',
       image: any,
-      technologies: ['React', 'Node.js', 'Express'],
+      technologies: ['Open Source', 'Project Ideas', 'Resources'],
       github: 'https://github.com/aaryan2720/Build-Any-project'
     },
     {

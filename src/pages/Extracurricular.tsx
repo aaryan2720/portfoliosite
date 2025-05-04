@@ -5,10 +5,22 @@ import Cn from '../images/Coding-Ninjas.jpg';
 import dipex from '../images/dipex.jpeg';
 import e404 from '../images/e404.jpeg';
 import ideation from '../images/ideation.jpeg';
+import intern from '../images/intern.jpeg';
 import mkd from '../images/mkd.jpeg';
+import sp27 from '../images/sp27.jpeg';
 import thepubliceye from '../images/thepubliceye.png';
 const Extracurricular = () => {
   const activities = [
+    {
+      id: 8,
+      title: 'Internship at The Nish-E-Services',
+      description: 'Web Development Intern | Nish E-Service OPC Pvt. Ltd. Passionate about building scalable and efficient web applications.',
+      date: 'May 2025 - September 2025',
+      location: 'Nish E-Service, Plot No. 4, CTS No. 222/53, Cantonment Area, Chhatrapati Sambhajinagar ',
+      icon: <Award className="h-6 w-6 text-yellow-500" />,
+      image: intern,
+      link: 'https://www.linkedin.com/posts/aaryan-choudhari_ideation2-teampravartak-projecthawk-activity-7320853399795564544-Fa0D?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADF6DV4BvHsLu_61YQ_Pl95sQvYE4sPUADY'
+    },
     {
       id: 7,
       title: 'Ideation 2.0 2nd Runner Up',
@@ -26,7 +38,8 @@ const Extracurricular = () => {
       date: 'April 2025',
       location: 'MKD Institute of Technology, Nandurbar',
       icon: <Award className="h-6 w-6 text-yellow-500" />,
-      image: mkd
+      image: mkd,
+      link:'https://www.linkedin.com/posts/aaryan-choudhari_spark2k25-firstprize-innovation-activity-7324695611767697408-MqZL?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADF6DV4BvHsLu_61YQ_Pl95sQvYE4sPUADY'
     },
     {
       id: 5,
@@ -47,6 +60,16 @@ const Extracurricular = () => {
       icon: <Award className="h-6 w-6 text-yellow-500" />,
       image: e404,
       link: 'https://www.linkedin.com/posts/aaryan-choudhari_hackathon-innovation-learning-activity-7300031346410688512-C6QM?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADF6DV4BvHsLu_61YQ_Pl95sQvYE4sPUADY'
+    },
+    {
+      id: 9,
+      title: 'Presentor and Creator Of Spark27',
+      description: 'Spark 27 |Seminar Introducing students to large language models and generative AI, sparking curiosity and innovation in future programmers! 🔥 Let me know if you need further refinements!',
+      date: '27th January 2024',
+      location: 'Adarsh Shala Yojana By Maharashtra Government ,Government School, Chhatrapati Sambhajinagar',
+      icon: <BookOpen className="h-6 w-6 text-blue-500" />,
+      image: sp27,
+      link: 'https://www.linkedin.com/posts/aaryan-choudhari_understand-create-and-represent-hey-activity-7157052606685626368-BQKz?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADF6DV4BvHsLu_61YQ_Pl95sQvYE4sPUADY'
     },
     {
       id: 4,
